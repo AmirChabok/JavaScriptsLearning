@@ -1,0 +1,107 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='fa' xml:lang='fa' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+
+    <title>Tolooco.ir</title>
+
+
+    <link rel='stylesheet' href='css/style.css' type='text/css' />
+
+    <style type='text/css'>
+        <!--
+        .Headings {
+            color: red;
+            font-size: 16pt;
+            padding-left: 10px;
+        }
+
+        .SubHeadings {
+            color: blue;
+            font-size: 14pt;
+            padding-left: 20px;
+        }
+
+        .SubSubHeadings {
+            color: green;
+            font-size: 12pt;
+            cursor: none;
+            padding-left: 30px;
+        }
+    </style>
+
+    <script type='text/javascript'>
+
+        function DisplaySubHeadings(subName) {
+            if (subName.style.display == "none")
+                subName.style.display = ""; // <<visible>>
+            else
+                subName.style.display = "none"; // <<invisible>>
+        }
+
+    </script>
+</head>
+<body>
+    <br />
+    <h1>
+        Learn 019
+    </h1>
+    <br />
+    <div align="center">
+        <hr />
+        <a href='http://IranianExperts.com' target='_blank'>Powered By IranianExperts Site!</a>
+        <hr />
+        <hr />
+        <a href='http://Tolooco.ir' target='_blank'>Develop By tolooco.ir Site!</a>
+        <hr />
+
+    </div>
+    <br />
+
+    <br />
+    <span class='Headings' onclick='DisplaySubHeadings(sub1);'>Menu 1</span>
+    <div class='SubHeadings' id='sub1' style='display:none'>
+        Sub Menu 11
+        <br />Sub Menu 12
+        <br />Sub Menu 13
+    </div>
+
+    <br />
+    <span class='Headings' onclick='DisplaySubHeadings(sub2);'>Menu 2</span>
+    <div class='SubHeadings' id='sub2' style='display:none'>
+        Sub Menu 21
+        <br />Sub Menu 22
+    </div>
+
+    <br />
+    <span class='Headings' onclick='DisplaySubHeadings(sub3);'>Menu 3</span>
+    <div class='SubHeadings' id='sub3' style='display:none'>
+        Sub Menu 31
+        <br /><span onclick='DisplaySubHeadings(sub32);'>Sub Menu 32</span>
+        <div class='SubSubHeadings' id='sub32' style='display:none'>
+            Sub Sub Menu 321
+            <br />Sub Sub Menu 322
+            <br />Sub Sub Menu 323
+            <br />Sub Sub Menu 324
+            <br />Sub Sub Menu 325
+        </div>
+        <br />Sub Menu 33
+        <br />Sub Menu 34
+    </div>
+
+    <br />
+    <span class='Headings' onclick='DisplaySubHeadings(sub4);'>News Sites</span>
+    <div class='SubHeadings' id='sub4' style='display:none'>
+        <a href='http://www.BBC.com' target='_blank'>BBC</a>
+        <br /><a href='http://www.CNN.com' target='_blank'>CNN</a>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <div align='center'>
+        <a href='http://validator.w3.org/check/referer' target='_blank'>
+            <img src='images/valid_xhtml10.gif' width='88' height='31' alt='Valid XHTML 1.0!' border='0' />
+        </a>
+    </div>
+</body>
+</html>

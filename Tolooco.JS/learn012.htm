@@ -1,0 +1,96 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='fa' xml:lang='fa' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+
+    <title>Tolooco.ir</title>
+
+
+    <link rel='stylesheet' href='css/style.css' type='text/css' />
+
+    <script type='text/javascript'>
+
+        function Validation() {
+            var blnReturn = true;
+
+            if (isNaN(parseFloat(frmCalc.txtFN.value)) || isNaN(parseFloat(frmCalc.txtSN.value))) {
+                alert("The first and second numbers must be a number and filled!");
+                blnReturn = false;
+            }
+
+            return (blnReturn);
+        }
+
+        function Add() {
+            if (Validation() == true)
+                frmCalc.txtRN.value = eval(frmCalc.txtFN.value) + eval(frmCalc.txtSN.value);
+        }
+
+        function Sub() {
+            if (Validation()) // [if (Validation())] = [if (Validation() == true)]
+                frmCalc.txtRN.value = eval(frmCalc.txtFN.value) - eval(frmCalc.txtSN.value);
+        }
+
+        function Mul() {
+            if (Validation())
+                frmCalc.txtRN.value = eval(frmCalc.txtFN.value) * eval(frmCalc.txtSN.value);
+        }
+
+        function Div() {
+            if (Validation())
+                frmCalc.txtRN.value = eval(frmCalc.txtFN.value) / eval(frmCalc.txtSN.value);
+        }
+
+        function Pwr() {
+            if (Validation()) {
+                var i = 1;
+                var Result = 1;
+
+                while (i <= eval(frmCalc.txtSN.value)) {
+                    Result *= eval(frmCalc.txtFN.value);
+                    i++;
+                }
+
+                frmCalc.txtRN.value = Result;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <br />
+    <h1>
+        Learn 012
+    </h1>
+    <br />
+    <div align="center">
+        <hr />
+        <a href='http://IranianExperts.com' target='_blank'>Powered By IranianExperts Site!</a>
+        <hr />
+        <hr />
+        <a href='http://Tolooco.ir' target='_blank'>Develop By tolooco.ir Site!</a>
+        <hr />
+
+    </div>
+    <br />
+    <div align='center'>
+        <form name='frmCalc' action=''>
+            <br /><input type='text' id='txtFN' name='txtFN' size='5' tabindex='1' />
+            <br /><input type='text' id='txtSN' name='txtSN' size='5' tabindex='2' />
+            <br /><input type='text' id='txtRN' name='txtRN' size='10' tabindex='3' />
+            <br /><br /><input type='button' class='lcommand' value='+' tabindex='4' onclick='Add();' />
+            <input type='button' class='lcommand' value='-' tabindex='5' onclick='Sub();' />
+            <input type='button' class='lcommand' value='*' tabindex='6' onclick='Mul();' />
+            <input type='button' class='lcommand' value='/' tabindex='7' onclick='Div();' />
+            <input type='button' class='lcommand' value='^' tabindex='8' onclick='Pwr();' />
+        </form>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div align='center'>
+        <a href='http://validator.w3.org/check/referer' target='_blank'>
+            <img src='images/valid_xhtml10.gif' alt='Valid XHTML 1.0!' border='0' width='88' height='31' />
+        </a>
+    </div>
+</body>
+</html>

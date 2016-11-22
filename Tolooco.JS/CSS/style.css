@@ -1,0 +1,526 @@
+  body
+  {
+    direction                  : ltr ;
+
+    margin                     : 0px ;
+    border                     : 0px ;
+    padding                    : 0px ;
+
+    color                      : #0000FF ;
+    background-color           : #E7E7E7 ;
+    background-image           : url('../images/back1.jpg');
+    background-repeat          : repeat ;
+    background-position        : left top ;
+    background-attachment      : fixed    ;
+
+    text-align                 : justify ;
+    text-indent                : 0px ;
+
+    font-size                  : 8pt ;
+    font-family                : tahoma ;
+    font-weight                : 400 ;
+
+    scrollbar-basecolor        : #E7E7E7 ;
+    scrollbar-face-color       : #E7E7E7 ;
+    scrollbar-arrow-color      : #034975 ;
+    scrollbar-track-color      : #E7E7E7 ;
+    scrollbar-shadow-color     : #034975 ;
+    scrollbar-3dlight-color    : #6373b5 ;
+    scrollbar-highlight-color  : #ffffff ;
+    scrollbar-darkshadow-color : #000000 
+  }
+
+  body.latin
+  {
+    direction                  : ltr ;
+
+    border-top                 : 1px solid #68669B ;
+
+    font-size                  : 8pt ;
+    font-family                : verdana ;
+    font-weight                : 400 ;
+  }
+
+  body.topright
+  {
+    direction                  : rtl ;
+
+    background-color           : #E7E7E7 ;
+    background-image           : url('../images/back1.jpg');
+
+    font-size                  : 8pt ;
+    font-family                : tahoma ;
+    font-weight                : 400 ;
+  }
+
+  body.topleft
+  {
+    direction                  : ltr ;
+
+    background-color           : #E7E7E7 ;
+    background-image           : url('../images/back1.jpg');
+
+    font-size                  : 8pt ;
+    font-family                : verdana ;
+    font-weight                : 400 ;
+  }
+
+  body.signout
+  {
+    background-color : #E7E7E7 ;
+
+    direction   : rtl ;
+
+    margin      : 0px ;
+    border      : 0px ;
+    padding     : 0px ;
+
+    color       : #0000FF ;
+    text-align  : justify ;
+    text-indent : 0px ;
+
+    font-size   : 8pt ;
+    font-family : tahoma ;
+    font-weight : 400 
+  }
+
+  body.top
+  {
+    direction        : ltr ;
+
+    margin           : 0px ;
+    border           : 0px none ;
+    padding          : 0px ;
+
+    color            : #0000FF ;
+    background-color : #E7E7E7 ;
+    background-image :  
+  }
+
+  body.right
+  {
+    margin       : 0px ;
+    border       : 0px ;
+    padding      : 0px ;
+
+    border-color : #034975 ;
+
+    color        : #0000FF ;
+
+    background   :#034975 url('../images/righttop.gif') no-repeat fixed right top ;
+  }
+
+  tr
+  {
+    color            : #0000FF ;
+    background-color : transparent ;
+  }
+
+  tr.header
+  {
+    color            : #FEF0BA ;
+    background-color : #68669B ;
+  }
+
+  tr.highlight
+  {
+    color            : #0000FF ;
+    background-color : #FEF0BA ;
+  }
+
+  td
+  {
+    padding-top    : 0px ;
+    padding-bottom : 0px ;
+    padding-left   : 2px ;
+    padding-right  : 2px ;
+
+    text-indent    : 0px ;
+  }
+
+  td.fc
+  {
+    direction   : rtl ;
+
+    text-align  : center ;
+
+    font-size   : 8pt ;
+    font-family : tahoma ;
+    font-weight : 400 ;
+  }
+
+  td.lc
+  {
+    direction   : ltr ;
+
+    text-align  : center ;
+
+    font-size   : 8pt ;
+    font-family : verdana ;
+    font-weight : 400 ;
+  }
+
+  td.fr
+  {
+    direction   : rtl ;
+
+    text-align  : justify ;
+
+    font-size   : 8pt ;
+    font-family : tahoma ;
+    font-weight : 400 ;
+  }
+
+  td.lr
+  {
+    direction   : ltr ;
+
+    text-align  : right ;
+
+    font-size   : 8pt ;
+    font-family : verdana ;
+    font-weight : 400 ;
+  }
+
+  td.fl
+  {
+    direction   : rtl ;
+
+    text-align  : left ;
+
+    font-size   : 8pt ;
+    font-family : tahoma ;
+    font-weight : 400 ;
+  }
+
+  td.ll
+  {
+    direction   : ltr ;
+
+    text-align  : justify ;
+
+    font-size   : 8pt ;
+    font-family : verdana ;
+    font-weight : 400 ;
+  }
+
+  a
+  {
+    cursor          : pointer ;
+
+    color           : #0000FF ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-weight     : 600 ;
+    font-family     : tahoma ;
+  }
+
+  a:visited
+  {
+    color           : #0000FF ;
+    text-decoration : none ;
+  }
+
+  a:active
+  {
+    color           : #FF0000 ;
+    text-decoration : none ;
+  }
+
+  a:hover
+  {
+    color           : #FF0000 ;
+    text-decoration : underline ;
+  }
+
+  input, textarea, select
+  {
+    color           : #0000FF ;
+    background      : #FEF0BA ;
+
+    text-align      : justify ;
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+
+    border-left     : 2px solid #68669B ;
+    border-top      : 2px solid #68669B ;
+    border-right    : 1px solid #68669B ;
+    border-bottom   : 1px solid #68669B ;
+  }
+
+  input.freadonly
+  {
+    direction     : rtl ;
+
+    border-left   : 2px solid #000000 ;
+    border-top    : 2px solid #000000 ;
+    border-right  : 1px solid #000000 ;
+    border-bottom : 1px solid #000000 ;
+
+    color         : #0000FF ;
+    background    : #C0C0C0 ;
+
+    text-align    : center ;
+
+    font-size     : 8pt ;
+    font-family   : tahoma ;
+    font-weight   : 400 ;
+  }
+
+  input.lreadonly
+  {
+    direction     : ltr ;
+
+    border-left   : 2px solid #000000 ;
+    border-top    : 2px solid #000000 ;
+    border-right  : 1px solid #000000 ;
+    border-bottom : 1px solid #000000 ;
+
+    color         : #0000FF ;
+    background    : #C0C0C0 ;
+
+    text-align    : center ;
+
+    font-size     : 8pt ;
+    font-family   : verdana ;
+    font-weight   : 400 ;
+  }
+
+  input.checkbox
+  {
+    border     : 0px ;
+
+    cursor     : pointer ;
+
+    color      : #0000FF ;
+    background : transparent ;
+  }
+
+  input.radio
+  {
+    border     : 0px ;
+
+    cursor     : pointer ;
+
+    color      : #0000FF ;
+    background : transparent ;
+  }
+
+  .farsi
+  {
+    direction   : rtl ;
+
+    font-size   : 8pt ;
+    font-family : tahoma ;
+    font-weight : 400 ;
+  }
+
+  .latin
+  {
+    direction   : ltr ;
+
+    font-size   : 8pt ;
+    font-family : verdana ;
+    font-weight : 400 ;
+  }
+
+  input.fcommand
+  {
+    direction     : rtl ;
+
+    border-left   : 1px solid #68669B ;
+    border-top    : 1px solid #68669B ;
+    border-right  : 3px solid #68669B ;
+    border-bottom : 3px solid #68669B ;
+
+    cursor        : pointer ;
+
+    color         : #0000FF ;
+    background    : #FEF0BA ;
+
+    text-align    : center ;
+
+    font-size     : 8pt ;
+    font-family   : tahoma ;
+    font-weight   : 400 ;
+  }
+
+  input.lcommand
+  {
+    direction     : ltr ;
+
+    border-left   : 1px solid #68669B ;
+    border-top    : 1px solid #68669B ;
+    border-right  : 3px solid #68669B ;
+    border-bottom : 3px solid #68669B ;
+
+    cursor        : pointer ;
+
+    color         : #0000FF ;
+    background    : #FEF0BA ;
+
+    text-align    : center ;
+
+    font-size     : 7pt ;
+    font-family   : verdana ;
+    font-weight   : 400 ;
+  }
+
+  input.lcommandx
+  {
+    direction     : ltr ;
+
+    border-left   : 1px solid #68669B ;
+    border-top    : 1px solid #68669B ;
+    border-right  : 3px solid #68669B ;
+    border-bottom : 3px solid #68669B ;
+
+    cursor        : pointer ;
+
+    color         : #0000FF ;
+    background    : #FEF0BA ;
+
+    text-align    : center ;
+
+    font-size     : 7pt ;
+    font-family   : verdana ;
+    font-weight   : 400 ;
+  }
+
+  h1, h2, h3, h4, h5, h6
+  {
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #0000FF ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+  }
+
+  .fwarning
+  {
+    direction       : rtl ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #FF0000 ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-family     : tahoma ;
+    font-weight     : 600 ;
+  }
+
+  .lwarning
+  {
+    direction       : ltr ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #FF0000 ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-family     : verdana ;
+    font-weight     : 600 ;
+  }
+
+  .finformation
+  {
+    direction       : rtl ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #0000FF ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-family     : tahoma ;
+    font-weight     : 600 ;
+  }
+
+  .linformation
+  {
+    direction       : ltr ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #0000FF ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-family     : verdana ;
+    font-weight     : 600 ;
+  }
+
+  .ftitle
+  {
+    direction       : rtl ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #0000FF ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-family     : tahoma ;
+    font-weight     : 600 ;
+  }
+
+  .ltitle
+  {
+    direction       : ltr ;
+
+    margin          : 0px ;
+    padding         : 0px ;
+    border          : 0px ;
+
+    color           : #0000FF ;
+    background      : transparent ;
+
+    text-indent     : 0px ;
+    text-decoration : none ;
+
+    font-size       : 8pt ;
+    font-family     : verdana ;
+    font-weight     : 600 ;
+  }
+
+  hr
+  {
+    color : #68669B ;
+  }
